@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormWizard_v10</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- DATE-PICKER -->
+		<link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <form action="" id="wizard">
+        		<!-- SECTION 1 -->
+                <h4></h4>
+                <section>
+                    <div class="inner">
+                    	<a href="#" class="avartar">
+                    		<img src="images/avartar.png" alt="">
+                    	</a>
+											<div class="form-row">
+                    		<div class="form-holder">
+                    		¿Quieres contratar un seguro para México o para resto del mundo?
+                    		</div>
+                    	</div>
+
+											<div class="form-row">
+                    		<div class="form-holder">
+                    		Ingresa cuantos dias requieres
+                    		</div>
+                    	</div>
+
+											<div class="form-row form-group">
+												<div class="form-holder">
+														<input type="text" class="form-control datepicker-here" data-language='en' data-date-format="yyyy-mm-dd" id="dinit" placeholder="Fecha inicio">
+												</div>
+												<div class="form-holder">
+														<input type="text" class="form-control datepicker-here" data-language='en' data-date-format="yyyy-mm-dd" id="dend" placeholder="Fecha fin">
+												</div>
+                    	</div>
+                    </div>
+                </section>
+
+				<!-- SECTION 2 -->
+                <h4></h4>
+                <section>
+                	<div class="inner">
+                		<a href="#" class="avartar">
+                    		<img src="images/avartar.png" alt="">
+                    	</a>
+
+											<h6>Elegir producto</h6>
+											<div class="payment-block">
+												<p>Obteniendo datos ... </p>
+											</div>
+
+
+                	</div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <h4></h4>
+                <section class="section-3">
+                    <div class="inner">
+                        <a href="#" class="avartar">
+                            <img src="images/avartar.png" alt="">
+                        </a>
+												<input type="hidden" id="product">
+												<input type="hidden" id="sellContract">
+												<input type="hidden" id="sellPriceSheet">
+												<input type="hidden" id="sellTariff">
+
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Nombre" id="name">
+													</div>
+												</div>
+
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Apellidos" id="surname">
+													</div>
+												</div>
+
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Edad" id="age">
+													</div>
+												</div>
+
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Correo electrónico">
+														<i class="zmdi zmdi-email small"></i>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Teléfono">
+														<i class="zmdi zmdi-smartphone-android"></i>
+													</div>
+												</div>
+												<div class="form-row">
+													<div class="form-holder">
+														<input type="text" class="form-control" placeholder="Dirección">
+																	<i class="zmdi zmdi-map small"></i>
+													</div>
+												</div>
+
+											<!--<div class="form-row">
+	                            <div class="select">
+	                                <div class="form-holder">
+	                                    <div class="select-control">Gender</div>
+	                                    <i class="zmdi zmdi-caret-down small"></i>
+	                                </div>
+	                                <ul class="dropdown">
+	                                    <li rel="Male">Male</li>
+	                                    <li rel="Female">Female</li>
+	                                    <li rel="Other">Other</li>
+	                                </ul>
+	                            </div>
+		                	</div>-->
+
+
+                    </div>
+                </section>
+            </form>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+
+		<!-- DATE-PICKER -->
+		<script src="vendor/date-picker/js/datepicker.js"></script>
+		<script src="vendor/date-picker/js/datepicker.en.js"></script>
+
+		<script src="js/main.js"></script>
+
+<!-- Template created and distributed by Colorlib -->
+</body>
+</html>
