@@ -1,2 +1,1 @@
-This template was made by Colorlib (https://colorlib.com)
-Please visit our website for more awesome templates, themes and tools. 
+En el archivo intermundial.php estan las funciones con las llamadas al soap. Cuando se integre a un framework solo se pasa cada funcion por cada endpoint sin modificar nada mas.
